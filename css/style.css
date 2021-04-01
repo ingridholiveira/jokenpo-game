@@ -1,0 +1,108 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    cursor: default;
+}
+
+body{
+    background-color: #f8f8f8;
+}
+
+#title{
+    font-size: 40px;
+    text-align: center;
+    color: #29201C;
+}
+
+#score{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#player, #PC{
+    position: relative;
+    flex-grow: 1;
+    border-radius: 5px;
+    color: #fff;
+    width: 200px;
+    padding: 20px;
+}
+
+#player{
+    background-color: #C70C00;
+}
+
+#PC{
+    background-color: #4F4CAD;
+}
+
+#versus{
+    font-size: 60px;
+    padding: 0 30px;
+    color: #29201C;
+}
+
+#player-name, #PC-name{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+#player-name{
+    text-align: left;
+}
+
+#PC-name{
+    text-align: right;
+}
+
+#player-points, #PC-points{
+    position: absolute;
+    top: 8px;
+    font-size: 40px;
+}
+
+#player-points{
+    right: 20px;
+}
+
+#PC-points{
+    left: 20px;
+}
+
+#player-choices, #PC-choices {
+    list-style: none;
+    text-align: center;
+    margin: 30px 0 0;
+    padding: 0;
+}
+
+#player-choices li, #PC-choices li{
+    display: inline;
+    padding: 0 15px;
+}
+
+#player-choices a, #PC-choices a{
+    opacity: .2;
+    padding: 5px;
+}
+
+#player-choices a:hover, #player-choices a.selected, #PC-choices a.selected {
+    opacity: 1;
+}
+
+#player-choices img, #PC-choices img{
+    max-width: 90px;    
+}
+
+#message{
+    background-color: #91806D;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    margin: 20px 0;
+    padding: 20px;
+}
